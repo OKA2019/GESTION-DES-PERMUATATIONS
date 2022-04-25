@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #d9e2ee22;
+}
+
+#tab1 {
+    width: 100%;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    align-content: center;
+}
+
+.logo {
+    width: auto;
+    padding: 10px 20px;
+}
+
+.infos {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#hist_cour {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid #9FC6FF;
+    position: relative;
+    margin: 20px 30px 30px 70px;
+    font-size: 14px;
+}
+
+#tab2 {
+    width: 480px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    border: 1px solid #9FC6FF;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.annuler {
+    width: 75px;
+    height: 25px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #4d3b4d;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.envoi {
+    width: 75px;
+    height: 25px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #e72ae7;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}

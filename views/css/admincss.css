@@ -1,0 +1,128 @@
+
+#selection{
+    width: 100%;
+    height: 28px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-content: center;
+
+}
+
+
+
+.corps{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+iframe{
+    width: 90%; 
+    height: 100%;
+    margin: 0;
+    border-radius: 40px;
+}
+
+marquee{
+    width: 100%;
+    margin-top: 0em;
+    top: auto;
+    direction:left;
+    padding-top: 5px;
+    height: 25px;
+    background-color: orange;
+    font-weight: bold;
+    color:white;
+}
+
+#corps1{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    justify-content: stretch;
+    border-radius: 20px;
+}
+
+.corps1{
+    width: 70%;
+    margin-left:15%;
+    margin-right:15%;
+    border-radius: 20px;
+    background-color: rgba(207, 204, 204, 0.46);
+    line-height: 40px;
+}
+
+input{
+    width: 100%;
+    background-position: right;
+    height: 22px;
+    border-radius: 5px;
+}
+.formu{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.td1{
+    width: 40%;
+    text-align: right;
+}
+.td2{
+    width: 90%;
+    float: right;
+}
+fieldset{
+    border: 0px;
+}
+
+.fiel1{
+    width: 40%;
+    padding: 30px 0px;
+    border: 1px solid green;
+    border-radius: 20px;
+}
+.formend{
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.Annuler, .envoie{
+    width: 30%;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    
+}
+.Annuler{
+    background-color: rgba(10, 10, 10, 0.644);
+    border: 1px solid rgba(0, 0, 0, 0.508);
+}
+.envoie{
+    background-color: green;
+}
+
+.avatar{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+ .nom{
+     display: flex;
+     justify-content: center;
+ }
+/*Fin du corps*/
+
